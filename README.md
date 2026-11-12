@@ -255,18 +255,3 @@ Stores generated content directly into configured Notion page.
 - Cloud deployment
 - Analytics dashboard
 ```
-
----
-
-
-
-cd D:\internship_project
-cd backend
-.\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-
-python -m uvicorn app.main:app --reload
-
-http://127.0.0.1:8000
-
-https://app.notion.com/p/3de58f3ca75280caa250f00c383d09a7
