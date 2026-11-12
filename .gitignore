@@ -1,0 +1,45 @@
+
+## `.gitignore`
+
+```gitignore
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+
+venv/
+env/
+.env
+
+# FastAPI
+
+*.log
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Frontend
+
+node_modules/
+
+# Cache
+
+.pytest_cache/
+.mypy_cache/
+
+# Generated Files
+
+AI-output.txt
+```
+
+---
